@@ -77,7 +77,6 @@
   background-image: url("./img/header-shapes-mobile@2x.svg");
   background-repeat: no-repeat;
   background-size: 100%;
-
 }
 
 #Primary-Text {
@@ -111,7 +110,6 @@
 
 #Primary-Content {
   display: flex;
-  
   width: 90%;
 
   /* Body / 2 */
@@ -137,12 +135,12 @@
 
 #Social-Media {
   /* Auto layout */
- 
+
   display: flex;
   width: 90%;
   flex-direction: column;
   padding: 0;
- 
+
   /* Inside auto layout */
 
   flex: none;
@@ -178,7 +176,7 @@
   width: 90%;
   height: 20px;
   margin-bottom: 12px;
-  
+
   /* Inside auto layout */
 
   background-color: aqua;
@@ -186,10 +184,9 @@
   order: 3;
   flex-grow: 0;
 }
-#social-media-icons li{
-list-style: none;
-margin-top: 0;
-margin-bottom: 0;
 
-
+#social-media-icons li {
+  list-style: none;
+  margin-top: 0;
+  margin-bottom: 0;
 }
