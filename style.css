@@ -1,3 +1,63 @@
-h1 {
-  color: blueviolet;
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+#Toolbar-Dark-Compact {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  left: 0;
+  right: 0;
+  top: 44px;
+  bottom: 0;
 }
+
+#Logo-Placeholder {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px 12px;
+  width: 100px;
+  height: 40px;
+  left: 12px;
+  top: calc(50% - 40px / 2);
+}
+
+#My-Logo {
+  width: 76px;
+  height: 20px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+
+  /* identical to box height, or 111% */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  /* Primary/B400 */
+
+  color: #6070ff;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+#Normal-Button-Tertiary-Enabled {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 8px;
+  width: 40px;
+  height: 40px;
+  right: 24px;
+  top: calc(50% - 40px / 2);
+  border-radius: 8px;
+}
+
+
+
