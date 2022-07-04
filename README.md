@@ -14,6 +14,12 @@ build the first 2 sections of the mobile website using the template you chose in
 - git and gitHub
 - Visual Code
 
+## Gettin started
+
+- Download from this link: https://github.com/d4nQw3rty/project_portfolio
+
+-Enjoy porfolio!!
+
 ## Authors
 
 👤 **Danys Linares**
