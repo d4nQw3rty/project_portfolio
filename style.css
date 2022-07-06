@@ -5,10 +5,9 @@
   flex-direction: column;
   left: 0;
   top: 0;
+  background: #e5e5e5;
 
   /* Neutrals/N0 */
-
-  background: #fff;
 }
 
 #Toolbar-Dark-Compact {
@@ -19,6 +18,7 @@
   left: 0;
   right: 0;
   bottom: 0;
+  background-color: white;
 }
 
 #Logo-Placeholder {
@@ -73,7 +73,7 @@
 #Headline {
   display: flex;
   flex-direction: column;
-  height: 100vh;
+  height: 80vh;
   padding: 24px;
   gap: 12px;
   left: calc(50% - 375px / 2);
@@ -81,9 +81,12 @@
   background-image: url("img/header-shapes-mobile@2x.svg");
   background-repeat: no-repeat;
   background-size: 100%;
+  border-bottom: 12px;
+  background-color: white;
+  border-bottom-left-radius: 15%;
 }
 
-#Primary-Text {
+.Primary-Text {
   display: flex;
   width: 90%;
   margin-bottom: 0;
@@ -112,7 +115,7 @@
   flex-grow: 0;
 }
 
-#Primary-Content {
+.Primary-Content {
   display: flex;
   width: 90%;
   margin-top: 0;
@@ -138,7 +141,7 @@
   flex-grow: 0;
 }
 
-#Social-Media {
+.Social-Media {
   /* Auto layout */
 
   display: flex;
@@ -153,7 +156,7 @@
   flex-grow: 0;
 }
 
-#Lets-Connect {
+.Lets-Connect {
   /* Body / 2 - Bolder */
   margin-top: 0;
   margin-bottom: 0;
@@ -176,7 +179,7 @@
   flex-grow: 0;
 }
 
-#social-media-icons {
+.social-media-icons {
   display: flex;
   justify-content: space-between;
   width: 170.17px;
@@ -191,10 +194,12 @@
   flex-grow: 0;
 }
 
-.main-container {
+#main-container {
   display: grid;
   gap: 88px;
   grid-area: 1 / 1 / 2 / 2;
+  background: #e5e5e5;
+  margin: 114px 24px 114px 24px;
 }
 
 .card {
@@ -590,6 +595,7 @@
   flex: none;
   order: 3;
   flex-grow: 0;
+  background-color: white;
 }
 
 .button-enable-text {
@@ -651,3 +657,102 @@
   order: 0;
   flex-grow: 0;
 }
+
+#about-myself {
+  display: flex;
+  flex-direction: column;
+  padding: 24px;
+  gap: 12px;
+  left: calc(50% - 375px / 2);
+  top: 92px;
+  border-bottom: 12px;
+  background-color: white;
+  border-top-right-radius: 15%;
+}
+
+#about-myself-button-holder {
+  display: flex;
+  list-style: none;
+
+  /* Inside auto layout */
+
+  padding: 0;
+  margin: 0;
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+}
+
+.skill-list {
+ 
+/* Auto layout */
+
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+background-color: white;
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+
+}
+
+.Frame-12 {
+  /* Frame 12 */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: column;
+list-style: none;
+width: 100%;
+padding: 0;
+margin-bottom: 113px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.language {
+  /* Languages */
+
+/* Body / 1 - Bolder */
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+/* identical to box height, or 120% */
+
+display: flex;
+justify-content: space-between;
+margin: 0px 24px 0px 24px;
+align-items: center;
+
+color: #000000;
+}
+
+.separator-button {
+  /* Separator Bottom */
+
+  
+  height: 1px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  margin: 0px 24px 0px 24px;
+  
+  /* Neutrals/N40 */
+  
+  background: #DFE1E6;
+}
+
