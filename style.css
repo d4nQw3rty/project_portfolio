@@ -5,7 +5,7 @@
   flex-direction: column;
   left: 0;
   top: 0;
-  background: #e5e5e5;
+  background: #F7F7F9;;
 
   /* Neutrals/N0 */
 }
@@ -198,8 +198,9 @@
   display: grid;
   gap: 88px;
   grid-area: 1 / 1 / 2 / 2;
-  background: #e5e5e5;
-  margin: 114px 24px 114px 24px;
+  padding: 114px 24px;
+ 
+
 }
 
 .card {
