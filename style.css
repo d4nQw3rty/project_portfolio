@@ -709,13 +709,138 @@ button:focus {
 #about-myself {
   display: flex;
   flex-direction: column;
-  padding: 24px;
+  align-items: center;
+  padding: 114px 24px;
+  gap: 24px;
+
+  /* Neutrals/N0 */
+
+  background: #fff;
+}
+
+.about-myself-top {
+  /* TOP */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0;
   gap: 12px;
-  left: calc(50% - 375px / 2);
-  top: 92px;
-  border-bottom: 12px;
-  background-color: white;
-  border-top-right-radius: 15%;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.about-myself-top-title {
+  /* Header / 2 */
+
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+
+  /* or 130% */
+
+  display: flex;
+  align-items: center;
+
+  /* Neutrals/N800 */
+  margin: 0;
+  color: #172b4d;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.about-myself-top-content {
+  /* Body / 2 */
+
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  margin: 0;
+
+  /* or 150% */
+
+  /* Neutrals/N600 */
+
+  color: #344563;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.about-myself-top-social-media {
+  /* Social Media */
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0;
+  gap: 16px;
+  width: 200px;
+  height: 80px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+
+.about-myself-top-social-media-support-text {
+  /* Supporting Text */
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0;
+  gap: 8px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.about-myself-top-social-media-icons-links {
+  /* Frame 1 */
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0;
+  justify-content: space-around;
+  list-style: none;
+  width: 200px;
+  height: 40px;
+  margin: 0;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
 }
 
 #about-myself-button-holder {
