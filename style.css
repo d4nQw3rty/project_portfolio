@@ -198,9 +198,9 @@
   display: grid;
   gap: 88px;
   grid-area: 1 / 1 / 2 / 2;
-  padding: 114px 24px;  
-  left: 0px;
-  top: 0px;
+  padding: 114px 24px;
+  left: 0;
+  top: 0;
 }
 
 .card {
