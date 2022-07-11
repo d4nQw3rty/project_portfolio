@@ -424,20 +424,23 @@ body {
 
 .tags {
   /* Auto layout */
-
-  display: flex;
-  flex-direction: row;
-  align-items: center;
+ 
   padding: 0;
   gap: 8px;
   list-style: none;
-  width: 65%;
+ 
 
   /* Inside auto layout */
 
-  flex: none;
-  order: 2;
-  flex-grow: 0;
+  
+}
+
+.tags li {
+ 
+  display: inline;
+  float: left;
+
+  
 }
 
 .tag-html {
@@ -583,6 +586,7 @@ button {
   /* Button / Enable */
 
   box-sizing: border-box;
+  clear: left;
 
   /* Auto layout */
 
