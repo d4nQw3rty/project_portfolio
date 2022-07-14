@@ -16,12 +16,17 @@
              <div id="Logo-Placeholder">
                  <a href="#" id="My-Logo"><img src="img/My_logo.png" alt="Home page"></a>
                </div>
-              <nav id="Normal-Button-Tertiary-Enabled">         
+              <nav id="Normal-Button-Tertiary-Enabled">                
                    <div id="icon-menu"><img src="img/NormalButton/Tertiary/Icons/Union.png" alt="Menu"></div>
+                   <ul class="toolbar-list">
+                         <li><a href="#">Portfolio</a></li>
+                         <li><a href="#">About</a></li>
+                         <li><a href="#">Contact</a></li>
+                   </ul>
               </nav>          
           </header>
           <section id="Headline">
-             <h1 class="Primary-Text">I’m Danys
+             <h1 class="Primary-Text">I’m Danys <br>
                  Glad to see you!
              </h1>
              <p class="Primary-Content">I’m a software
@@ -43,7 +48,7 @@
                    <div class="card-img">
                        <img src="img/Snapshoot-Portfolio.png" alt="Porfolio Snapshot" >
                    </div>            
-                   <div>
+                   <div class="card-left-container">
                       <h2 class="project-title">Tonic</h2>
                           <ul class="frame-1">
                               <li class="client"><p>CANOPY</p></li>
@@ -67,7 +72,7 @@
                  <div class="card-img">
                       <img src="img/Snapshoot-Portfolio-2.png" alt="Portfolio Snapshot" >
                   </div>            
-                  <div>
+                  <div class="card-left-container">
                      <h2 class="project-title">Multi-Post<br>
                           Stories
                      </h2>
@@ -93,7 +98,7 @@
                   <div class="card-img">
                       <img src="img/Snapshoot-Portfolio-3.png" alt="Porfolio Snapshot" >
                  </div>            
-                 <div>
+                 <div class="card-left-container">
                       <h2 class="project-title">Tonic</h2>
                       <ul class="frame-1">
                           <li class="client"><p>CANOPY</p></li>
@@ -117,7 +122,7 @@
                   <div class="card-img">
                       <img src="img/Snapshoot-Portfolio-4.png" alt="Portfolio Snapshot" >
                  </div>            
-                 <div>
+                 <div class="card-left-container">
                       <h2 class="project-title">Multi-Post<br>
                           Stories
                         </h2>
@@ -139,7 +144,7 @@
                        <button type="button" onclick="return false;">See Project</button>
                  </div>  
                </div> 
-           </section>           
+           </section>            
            <section id="about-myself">
                <div class="about-myself-top">
                   <h2 class="about-myself-top-title">About<br>
@@ -159,9 +164,9 @@
                           <li><a href="https://medium.com/" target="_blank" rel="noopener noreferer" ><img src="img/Vector-M.svg" alt="Medium link"></a></li>
                       </ul>            
                   </div>                  
-                 <div id="about-myself-button-holder">
+                  <div id="about-myself-button-holder">
                       <button type="button" onclick="return false;">Get my resume</button>
-                 </div>
+                  </div>
                </div>
                <ul class="skill-list">
                   <li class="skill-list-holder">
@@ -198,25 +203,7 @@
                    <li class="separator-button"></li>
                </ul>                             
             </section>
-            <section id="contactme">
-                  <h2>Contact me</h2>
-                  <p>If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it </p>
-                  <form action="https://formspree.io/f/xnqwkwnk" method="post" class="form-section">
-                      <ul> <li class="form-container"> 
-                              <input type="text" id="name" name="name" maxlength="30" placeholder="Name" class="input-form-1" required>
-                           </li> 
-                           <li class="form-container"> 
-                              <input type="email" id="email" name="mail" placeholder="e-mail" class="input-form-1" required>
-                           </li>
-                           <li class="input-form-textarea">
-                              <textarea name="contactme" id="textarea" maxlength="500" placeholder="Write your message here" required></textarea>
-                           </li>
-                           <li>
-                              <button type="submit">Get It Touch</button>
-                           </li> 
-                      </ul> 
-                  </form>                  
-            </section>              
+                       
       </div>    
     </body>
 </html>
