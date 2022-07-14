@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <title>Portfolio</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <title>Portfolio</title>
 </head>
  <body>
      <div id="header-background-mobile">
@@ -139,17 +139,7 @@
                        <button type="button" onclick="return false;">See Project</button>
                  </div>  
                </div> 
-           </section> 
-
-
-
-
-
-
-
-
-
-           
+           </section>           
            <section id="about-myself">
                <div class="about-myself-top">
                   <h2 class="about-myself-top-title">About<br>
@@ -168,8 +158,7 @@
                           <li><a href="https://twitter.com/Danys_Linares" target="_blank" rel="noopener noreferer"><img src="img/Vector-twitter.svg" alt="Twitter link"></a></li>
                           <li><a href="https://medium.com/" target="_blank" rel="noopener noreferer" ><img src="img/Vector-M.svg" alt="Medium link"></a></li>
                       </ul>            
-                  </div>
-                  
+                  </div>                  
                  <div id="about-myself-button-holder">
                       <button type="button" onclick="return false;">Get my resume</button>
                  </div>
@@ -177,39 +166,57 @@
                <ul class="skill-list">
                   <li class="skill-list-holder">
                       <div class="skill-list-holder-text-and-arrow">                                                                  
-                      <h2 class="skill-list-holder-text">Language</h2>
-                      <div class="skill-list-holder-arrow">
-                          <img  src="img/NormalButton/Tertiary/Icons/Icon-Chevron-Down-Larger.png" alt="Drop Down">
-                      </div>
+                          <h2 class="skill-list-holder-text">Language</h2>
+                          <div class="skill-list-holder-arrow">
+                              <img  src="img/NormalButton/Tertiary/Icons/Icon-Chevron-Down-Larger.png" alt="Drop Down">
+                          </div>
                       </div>                             
-                          <ul class="skill-list-language-list">
-                              <li><img src="img/Ellipse1.png" alt="JavaScript logo">JavaSript</li>
-                              <li><img src="img/Ellipse-html.png" alt="HTML logo">HTML</li>
-                              <li><img src="img/Ellipse-CSS3.png" alt="CSS logo">CSS</li>
-                          </ul>                           
-                  </li>
-                  <li></li>
-                  <li class="skill-list-holder">
+                      <ul class="skill-list-language-list">
+                          <li><img src="img/Ellipse1.png" alt="JavaScript logo">JavaSript</li>
+                          <li><img src="img/Ellipse-html.png" alt="HTML logo">HTML</li>
+                          <li><img src="img/Ellipse-CSS3.png" alt="CSS logo">CSS</li>
+                       </ul>                           
+                   </li>
+                   <li></li>
+                   <li class="skill-list-holder">
                       <div class="skill-list-holder-text-and-arrow">
                           <h2 class="skill-list-holder-text">Frameworks</h2>
                           <div class="skill-list-holder-arrow">
                                   <img src="img/NormalButton/Tertiary/Icons/Union-right.png" alt="right arrow">
                           </div>
                       </div>  
-                  </li>
-                  <li class="separator-button"></li>
-                  <li class="skill-list-holder">
+                   </li>
+                   <li class="separator-button"></li>
+                   <li class="skill-list-holder">
                       <div class="skill-list-holder-text-and-arrow">
                           <h2 class="skill-list-holder-text">Skills</h2>
                           <div class="skill-list-holder-arrow">
                               <img src="img/NormalButton/Tertiary/Icons/Union-right.png" alt="rigth arrow">
                           </div>
                       </div> 
-                  </li>
-                  <li class="separator-button"></li>
-               </ul>               
+                   </li>
+                   <li class="separator-button"></li>
+               </ul>                             
             </section>
-             
+            <section id="contactme">
+                  <h2>Contact me</h2>
+                  <p>If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it </p>
+                  <form action="https://formspree.io/f/xnqwkwnk" method="post" class="form-section">
+                      <ul> <li class="form-container"> 
+                              <input type="text" id="name" name="name" maxlength="30" placeholder="Name" class="input-form-1" required>
+                           </li> 
+                           <li class="form-container"> 
+                              <input type="email" id="email" name="mail" placeholder="e-mail" class="input-form-1" required>
+                           </li>
+                           <li class="input-form-textarea">
+                              <textarea name="contactme" id="textarea" maxlength="500" placeholder="Write your message here" required></textarea>
+                           </li>
+                           <li>
+                              <button type="submit">Get It Touch</button>
+                           </li> 
+                      </ul> 
+                  </form>                  
+            </section>              
       </div>    
     </body>
 </html>
