@@ -598,7 +598,7 @@ body {
 
 button {
   /* Button / Enable */
-
+transition: all 1.5s ease-out;
   box-sizing: border-box;
 
   /* Auto layout */
