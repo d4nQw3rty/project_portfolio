@@ -90,6 +90,8 @@ body {
 }
 
 .Primary-Text {
+  animation-duration: 3s;
+  animation-name: slidein;
   display: flex;
   width: 90%;
   margin-bottom: 0;
@@ -119,6 +121,8 @@ body {
 }
 
 .Primary-Content {
+  animation-duration: 3s;
+  animation-name: slidein;
   display: flex;
   width: 90%;
   margin-top: 0;
@@ -146,7 +150,8 @@ body {
 
 .Social-Media {
   /* Auto layout */
-
+  animation-duration: 3s;
+  animation-name: slidein;
   display: flex;
   width: 90%;
   flex-direction: column;
@@ -195,6 +200,18 @@ body {
   flex: none;
   order: 3;
   flex-grow: 0;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
 }
 
 #main-container {
@@ -582,6 +599,7 @@ body {
 button {
   /* Button / Enable */
 
+  transition: all 1.5s ease-out;
   box-sizing: border-box;
 
   /* Auto layout */
