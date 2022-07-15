@@ -23,15 +23,6 @@ body {
   background-color: white;
 }
 
-@media screen and (min-width: 768px) {
-  #Toolbar-Dark-Compact {
-    position: fixed;
-    top: 0;
-    padding-right: 29%;
-    padding-left: 14%;
-  }
-}
-
 #Logo-Placeholder {
   display: flex;
   flex-direction: row;
@@ -95,38 +86,6 @@ body {
   border-bottom: 12px;
   background-color: white;
   border-bottom-left-radius: 100px;
-}
-
-@media screen and (min-width: 768px) {
-  .headline-768-container {
-    background: #fff;
-    padding-top: 119px;
-    padding-right: 8px;
-    padding-left: 34.6px;
-    padding-bottom: 76.54;
-    align-items: center;
-    background-image: url("img/Header-bg-768.svg");
-    background-position-y: 119px;
-    background-repeat: no-repeat;
-  }
-
-  #Headline {
-    padding-top: 241px;
-    padding-left: 225.4px;
-    padding-right: 252px;
-    align-items: flex-start;
-    background: none;
-  }
-
-  #Normal-Button-Tertiary-Enabled div {
-    display: none;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  #Normal-Button-Tertiary-Enabled ul li {
-    display: none;
-  }
 }
 
 .Primary-Text {
@@ -245,15 +204,6 @@ body {
   padding: 114px 24px;
 }
 
-@media screen and (min-width: 768px) {
-  #main-container {
-    display: grid;
-    gap: 142px;
-    grid-area: 1 / 1 / 2 / 2;
-    padding: 142px 142px;
-  }
-}
-
 .card {
   /* Card Works */
 
@@ -283,36 +233,11 @@ body {
   flex-grow: 0;
 }
 
-@media screen and (min-width: 768px) {
-  .card {
-    flex-direction: row;
-    padding: 24px 24px;
-    gap: 22px;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  .left-container {
-    /* Auto layout */
-
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-  }
-}
-
 .card-img {
   display: flex;
   flex-direction: column;
   width: 100%;
   height: 100%;
-}
-
-@media screen and (min-width: 768px) {
-  .card-img {
-    width: 72%;
-    height: 100%;
-  }
 }
 
 .project-title {
@@ -1266,4 +1191,76 @@ button:focus {
   flex: none;
   order: 0;
   flex-grow: 0;
+}
+
+@media screen and (min-width: 768px) {
+  #Toolbar-Dark-Compact {
+    position: fixed;
+    top: 0;
+    padding-right: 29%;
+    padding-left: 14%;
+  }
+
+  .headline-768-container {
+    background: #fff;
+    padding-top: 119px;
+    padding-right: 8px;
+    padding-left: 34.6px;
+    padding-bottom: 76.54;
+    align-items: center;
+    background-image: url("img/Header-bg-768.svg");
+    background-position-y: 119px;
+    background-repeat: no-repeat;
+  }
+
+  #Headline {
+    padding-top: 241px;
+    padding-left: 225.4px;
+    padding-right: 252px;
+    align-items: flex-start;
+    background: none;
+  }
+
+  #Normal-Button-Tertiary-Enabled div {
+    display: none;
+  }
+
+  #main-container {
+    display: grid;
+    gap: 142px;
+    grid-area: 1 / 1 / 2 / 2;
+    padding: 142px 142px;
+  }
+
+  .left-container {
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .card {
+    flex-direction: row;
+    padding: 24px 24px;
+    gap: 22px;
+  }
+
+  .card-img {
+    width: 72%;
+    height: 100%;
+  }
+  .img1 {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #Normal-Button-Tertiary-Enabled ul li {
+    display: none;
+  }
+  .img2 {
+    display: none;
+  }
+ 
 }
