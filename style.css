@@ -109,7 +109,7 @@ body {
 }
 
 @media screen and (max-width: 768px) {
-  #Normal-Button-Tertiary-Enabled ul {
+  #Normal-Button-Tertiary-Enabled ul li {
     display: none;
   }
 }
@@ -1186,20 +1186,21 @@ button:focus {
   flex-direction: row;
   align-items: center;
   padding: 0;
-  gap: 8px;
+  gap: 32px;
   width: 259px;
   height: 40px;
   list-style: none;
 }
 
-#Normal-Button-Tertiary-Enabled ul li {
+#Normal-Button-Tertiary-Enabled ul li a {
   /* Body / 3 - Bolder */
 
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
-  line-height: 20px;
+  line-height: 20px; 
+  text-decoration: none;
 
   /* identical to box height, or 133% */
 
