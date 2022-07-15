@@ -103,6 +103,30 @@ body {
 }
 
 @media screen and (min-width: 768px) {
+  .headline-768-container {
+    background: #fff;
+    padding-top: 119px;
+    padding-right: 8px;
+    padding-left: 34.6px;
+    padding-bottom: 76.54;
+    align-items: center;
+    background-image: url("img/Header-bg-768.svg");
+    background-position-y: 119px;
+    background-repeat: no-repeat;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  #Headline {
+    padding-top: 241px;
+    padding-left: 225.4px;
+    padding-right: 252px;
+    align-items: flex-start;
+    background: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
   #Normal-Button-Tertiary-Enabled div {
     display: none;
   }
@@ -259,6 +283,7 @@ body {
   flex-grow: 0;
 }
 
+  
 .card-img {
   display: flex;
   flex-direction: column;
