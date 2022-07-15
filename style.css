@@ -121,8 +121,10 @@ body {
 }
 
 .Primary-Content {
+
   animation-duration: 3s;
   animation-name: slidein;
+
   display: flex;
   width: 90%;
   margin-top: 0;
@@ -598,7 +600,7 @@ body {
 
 button {
   /* Button / Enable */
-
+  
   box-sizing: border-box;
 
   /* Auto layout */
