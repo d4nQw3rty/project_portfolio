@@ -148,18 +148,6 @@ body {
   flex-grow: 0;
 }
 
-@keyframes slidein {
-  from {
-    margin-left: 100%;
-    width: 300%;
-  }
-
-  to {
-    margin-left: 0%;
-    width: 100%;
-  }
-}
-
 .Social-Media {
   /* Auto layout */
   animation-duration: 3s;
@@ -212,6 +200,18 @@ body {
   flex: none;
   order: 3;
   flex-grow: 0;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
 }
 
 #main-container {
