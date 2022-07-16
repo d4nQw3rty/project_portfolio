@@ -1155,3 +1155,172 @@ button:focus {
 
   color: #b3bac5;
 }
+
+/* Desktop Version CSS Code */
+
+#desktop-version-toolbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  width: 79%;
+  height: 72px;
+  padding-left: 155px;
+}
+
+#desktop-nav-item {
+  display: flex;
+  width: 259px;
+}
+
+#menu-list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0;
+  gap: 32px;
+  width: 259px;
+  height: 40px;
+  list-style: none;
+}
+
+#menu-list a {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #344563;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+#desktop-version-header {
+  display: flex;
+  flex-direction: row;
+  height: 846px;
+  left: 0;
+  margin-top: 70px;
+}
+
+#desktop-header-bg {
+  height: 90%;
+  width: 98%;
+  margin-left: 2.66%;
+  background-image: url("img/Header-bg.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 100% 100%;
+}
+
+#desktop-header-text {
+  padding-top: 241px;
+  padding-left: 17.79%;
+  padding-right: 19.89%;
+  gap: 12px;
+}
+
+#desktop-primary-text {
+  margin: 0;
+  padding-bottom: 12px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 60px;
+
+  /* or 125% */
+
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.37px;
+
+  /* Theme 1 / Neutrals 1 */
+
+  color: #091e42;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.desktop-secondary-text {
+  /* Body / 1 */
+  margin: 0;
+  padding-bottom: 12px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+
+  /* or 140% */
+
+  /* Theme 1 / Neutrals 3 */
+
+  color: #344563;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.desktop-social-media {
+  display: flex;
+  flex-direction: row;
+}
+
+.desktop-lets-connect {
+  /* Body / 2 - Bolder */
+  margin: 0;
+  padding-bottom: 12px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+
+  /* identical to box height, or 150% */
+
+  /* Primary/B300 */
+
+  color: #7f8cff;
+}
+
+.desktop-social-media-icons {
+  display: flex;
+  justify-content: space-between;
+  width: 170.17px;
+  height: 20px;
+  list-style: none;
+
+  /* Inside auto layout */
+  padding: 0;
+  margin: 0;
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+}
+
+@media screen and (min-width: 768px) {
+  #header-background-mobile {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #desktop-version {
+    display: none;
+  }
+}
