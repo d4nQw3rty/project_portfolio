@@ -1158,7 +1158,9 @@ button:focus {
 
 /* Desktop Version CSS Code */
 #desktop-version {
-  background-color: #e5e5e5;
+  margin: 0;
+  padding: 0;
+  background: #f7f7f9;
 }
 
 #desktop-version-toolbar {
@@ -1168,15 +1170,13 @@ button:focus {
   justify-content: space-between;
   position: fixed;
   top: 0;
-  width: 100%;
+  bottom: 0;
+  left: 0;
+  right: 0;
   height: 72px;
-  padding-left: 155px;
-  background: #fff;
-  border-bottom-left-radius: 100px;
-}
-
-nav {
-  padding-right: 22%;
+  background: white;
+  padding-left: 12%;
+  padding-right: 10%;
 }
 
 #desktop-logo-placeholder {
@@ -1249,8 +1249,8 @@ nav {
   height: 846px;
   left: 0;
   margin-top: 70px;
-  background: white;
   border-bottom-left-radius: 100px;
+  background: white;
 }
 
 #desktop-header-bg {
@@ -1358,20 +1358,35 @@ nav {
 
 #portfolio-list {
   display: grid;
-  gap: 142px;
-  grid-area: 1 / 1 / 2 / 2;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(4, 1fr);
+  grid-column-gap: 0;
+  grid-row-gap: 142px;
   padding: 142px 142px;
-  background-color: #e5e5e5;
 }
 
-.desktop-card {
+.desktop-card-container {
   display: flex;
   flex-direction: row;
-  background-color: white;
-  width: 100%;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+}
+
+.bg-img {
+  height: 99%;
+  width: 99%;
+  background-image: url("img/Snapshoot-Portfolio-nature.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
 }
 
 .flex-grow-1 {
+  display: flex;
+  flex-direction: column;
+  height: 448px;
+  width: 100%;
   padding-left: 24px;
   padding-top: 24px;
   padding-bottom: 24px;
@@ -1379,9 +1394,93 @@ nav {
   flex-grow: 1;
 }
 
+.desktop-ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  list-style: none;
+  justify-content: flex-start;
+  margin: 0;
+  padding: 0;
+  gap: 12px;
+}
+
 @media screen and (min-width: 768px) {
   #header-background-mobile {
     display: none;
+  }
+
+  .project-title {
+    /* Header / 2 */
+    margin: 0;
+    padding-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+
+    /* or 130% */
+
+    /* Theme 1 / Neutrals 1 */
+
+    color: #091e42;
+  }
+
+  .client p {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+
+    /* identical to box height, or 133% */
+
+    /* Theme 1 / Neutrals 3 */
+
+    color: #344563;
+
+    /* identical to box height, or 133% */
+
+    /* Theme 1 / Neutrals 6 */
+
+    color: #6b778c;
+  }
+
+  .role {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 8px 0;
+    height: 32px;
+    width: auto;
+  }
+
+  .role p {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+
+    /* identical to box height, or 133% */
+  }
+
+  .year-label p {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+
+    /* identical to box height, or 133% */
+
+    /* Theme 1 / Neutrals 6 */
+
+    color: #6b778c;
   }
 }
 
