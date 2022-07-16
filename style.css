@@ -1241,12 +1241,18 @@ button:focus {
     gap: 22px;
   }
 
+  .card-img {
+    display: flex;
+    flex-direction: column;
+  }
+
   .left-container {
     /* Auto layout */
     display: flex;
-    flex-direction: column;
-    padding: 24px 24px;
+    align-items: flex-start;
+    padding: 24px 22px;
     flex-grow: 0;
+        
   }
 
   .right-container {
@@ -1256,18 +1262,21 @@ button:focus {
     align-items: flex-start;
     padding: 24px 24px;
     padding-right: 0;
-    width: 544px;
+    
+    
   }
 
-  
+  .flex-growth {
+    flex: 1;
+  }
   .img1 {
     display: none;
   }
 
   .img2 {
-    width: 544px;
-    height: 448px;
+    display: flex;
   }
+
 
   .project-title {
     margin: 0;
@@ -1277,15 +1286,18 @@ button:focus {
     font-size: 40px;
     line-height: 52px;
     color: #091e42;
+    padding-bottom: 12px;
   }
 
   .frame-1 {
     display: flex;
     flex-direction: row;
     align-items: center;
+    flex-wrap: wrap-reverse;
     justify-content: start;
     padding: 0;
     padding-bottom: 24px;
+    padding-top: 20px;
     width: 100%;
     gap: 12px;
     list-style: none;
@@ -1305,20 +1317,17 @@ button:focus {
     padding-top: 24px;    
   }
 
-  .card-work-text {
+    .card-work-text {
+    
+    /* Body / 2 */
     margin: 0;
-  }
-
-  .card-work-text p {
-    /* Body / 2 */
-
-    /* Body / 2 */
-
+    display: flex;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
+    padding-right: 24px;
 
     /* or 150% */
 
@@ -1344,6 +1353,7 @@ button:focus {
     font-size: 18px;
     line-height: 24px;
     color: #344563;
+    
   }
 
   .role {
@@ -1356,6 +1366,7 @@ button:focus {
     font-weight: 400;
     font-size: 18px;
     line-height: 24px;
+    margin: 0;
 
     /* identical to box height, or 133% */
 
@@ -1364,7 +1375,7 @@ button:focus {
     color: #6b778c;
   }
 
-  .year-label {
+  .year-label P {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -1380,7 +1391,7 @@ button:focus {
 
   .tags {
     padding-top: 24px;
-    padding-bottom: 38px;
+    padding-bottom: 36px;
     margin: 0;
   }
 
@@ -1390,7 +1401,7 @@ button:focus {
     align-items: center;
     padding: 12px;
     gap: 10px;
-    width: 126.28px;
+    width: 127px;
     height: 48px;
     left: 0;
     top: calc(50% - 48px / 2);
@@ -1402,9 +1413,36 @@ button:focus {
   }
 
   .text-right {
-    padding-top: 48px;
-    padding-left: 48px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 24px;
+    padding-left: 24px;
+    padding-right: 24px;
   }
+
+  .text-left {
+    display: flex;
+    flex-direction: column;
+    padding-top: 24px;
+    padding-right: 24px;
+  } 
+
+  .action {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding-top: 16px;
+    padding-left: 0;
+    order: 4;
+ }
+
+ .hand-img{
+  display: flex;
+  width: 57px;
+  height: 57px;
+  padding-left: 55%;
+  order: 5;
+ }
 }
 
 @media screen and (max-width: 768px) {
@@ -1421,5 +1459,11 @@ button:focus {
     flex-direction: column;
     padding: 0;
     width: 100%;
+  }
+  .text-right {
+    display: none;
+  }
+  .text-left {
+    display: none;
   }
 }
