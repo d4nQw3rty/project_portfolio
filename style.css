@@ -1158,8 +1158,9 @@ button:focus {
 
 /* Desktop Version CSS Code */
 #desktop-version {
-  background-color: #E5E5E5;
+  background-color: #e5e5e5;
 }
+
 #desktop-version-toolbar {
   display: flex;
   flex-direction: row;
@@ -1174,10 +1175,10 @@ button:focus {
   border-bottom-left-radius: 100px;
 }
 
- nav {
-    padding-right: 22%;
- }
- 
+nav {
+  padding-right: 22%;
+}
+
 #desktop-logo-placeholder {
   display: flex;
   flex-direction: row;
@@ -1242,13 +1243,12 @@ button:focus {
   flex-grow: 0;
 }
 
-
 #desktop-version-header {
   display: flex;
   flex-direction: row;
   height: 846px;
   left: 0;
-  margin-top: 70px;  
+  margin-top: 70px;
   background: white;
   border-bottom-left-radius: 100px;
 }
@@ -1361,14 +1361,14 @@ button:focus {
   gap: 142px;
   grid-area: 1 / 1 / 2 / 2;
   padding: 142px 142px;
-  background-color: #E5E5E5;
+  background-color: #e5e5e5;
 }
 
 .desktop-card {
   display: flex;
   flex-direction: row;
   background-color: white;
-  width: 100%;   
+  width: 100%;
 }
 
 .flex-grow-1 {
