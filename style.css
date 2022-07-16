@@ -1157,7 +1157,9 @@ button:focus {
 }
 
 /* Desktop Version CSS Code */
-
+#desktop-version {
+  background-color: #E5E5E5;
+}
 #desktop-version-toolbar {
   display: flex;
   flex-direction: row;
@@ -1165,11 +1167,17 @@ button:focus {
   justify-content: space-between;
   position: fixed;
   top: 0;
-  width: 79%;
+  width: 100%;
   height: 72px;
   padding-left: 155px;
+  background: #fff;
+  border-bottom-left-radius: 100px;
 }
 
+ nav {
+    padding-right: 22%;
+ }
+ 
 #desktop-logo-placeholder {
   display: flex;
   flex-direction: row;
@@ -1204,6 +1212,7 @@ button:focus {
 #desktop-nav-item {
   display: flex;
   width: 259px;
+  padding-right: 5%;
 }
 
 #menu-list {
@@ -1233,12 +1242,15 @@ button:focus {
   flex-grow: 0;
 }
 
+
 #desktop-version-header {
   display: flex;
   flex-direction: row;
   height: 846px;
   left: 0;
-  margin-top: 70px;
+  margin-top: 70px;  
+  background: white;
+  border-bottom-left-radius: 100px;
 }
 
 #desktop-header-bg {
@@ -1342,6 +1354,29 @@ button:focus {
   flex: none;
   order: 3;
   flex-grow: 0;
+}
+
+#portfolio-list {
+  display: grid;
+  gap: 142px;
+  grid-area: 1 / 1 / 2 / 2;
+  padding: 142px 142px;
+  background-color: #E5E5E5;
+}
+
+.desktop-card {
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  width: 100%;   
+}
+
+.flex-grow-1 {
+  padding-left: 24px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  padding-right: 22px;
+  flex-grow: 1;
 }
 
 @media screen and (min-width: 768px) {
